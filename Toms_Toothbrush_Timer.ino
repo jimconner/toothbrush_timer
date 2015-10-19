@@ -105,18 +105,18 @@ void loop() {
         }
         for ( int seconds = 0; seconds < 15; seconds++ ) { 
           digitalWrite(7, HIGH);   // turn the LED on (HIGH is the voltage level)
-          delay(200);              // wait for a second
+          delay(200);              // wait for 200ms
           digitalWrite(8, HIGH);   // turn the LED on (HIGH is the voltage level)
-          delay(200);              // wait for a second
+          delay(200);              // wait for 200ms
           digitalWrite(9, HIGH);   // turn the LED on (HIGH is the voltage level)
-          delay(200);              // wait for a second
+          delay(200);              // wait for 200ms
           digitalWrite(4, HIGH);   // turn the LED on (HIGH is the voltage level)
-          delay(200);              // wait for a second
+          delay(200);              // wait for 200ms
           digitalWrite(7, LOW);    // turn the LED off by making the voltage LOW
           digitalWrite(8, LOW);    // turn the LED off by making the voltage LOW
           digitalWrite(9, LOW);    // turn the LED off by making the voltage LOW
           digitalWrite(4, LOW);    // turn the LED off by making the voltage LOW
-          delay(200);              // wait for a second
+          delay(200);              // wait for 200ms
           if ( digitalRead(2) == LOW ) {
             if ( breakout == 2 ) {
               minutes = 2;
